@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+#root{
+    width: 1200px;
+    min-height: 900px;
+    margin: 0 auto;
+    background-color:antiquewhite;;
+    
+}
+#header{
+    width: 1200px;
+    background-color:rgb(128, 128, 128) ;
+    display: flex;
+    justify-content: space-around;
+}
+#homeButtons{
+    display: flex;
+   justify-content: space-around;
+}
+#trips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#tripCard{
+    border: solid 1px;
+    max-width: 600px;
+    min-height: 400px;
+    margin: 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+#imgCard{
+    max-width: 600px;
+}
+
+#footer{
+    width: 1200px;
+    background-color:rgb(128, 128, 128) ;
+   
+}
+#form{
+    border: solid 1px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    
+}
+#newTrip{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 300px;
+}
+#updateButton{
+    display: flex;
+    justify-content: center;
+   
+    margin: 0 auto;
+}
+#logout{
+    border: solid 1px;
+    border-radius: 20px;
+    max-height: 16px;
+    margin: 4px;
+}
+#process{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+}
