@@ -15,11 +15,11 @@ export default function UserLogin() {
     };
     //axios
     function onSubmit(data: User) {
-        axios.post("http://localhost:3000/api/auth/login", data, { headers })
+        axios.post("http://localhost:3000/api/login", data, { headers })
         .then(response =>{
-            console.log(response);
+            console.log(response.data);
             
-            const token = response.data.responseObj.token;
+            const token = response.data;
             localStorage.setItem("token",token)
         } )
         

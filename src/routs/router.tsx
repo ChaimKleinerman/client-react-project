@@ -18,7 +18,6 @@ return <Routes >
     <Route path={ROUTES.DETAIL} element = {<TripDetail/>}> </Route>
     <Route path={ROUTES.UPDATE} element = {<UpdateTripForm/>}> </Route>
     <Route path={ROUTES.NEW} element = {<NewTripFrom/>}> </Route>
-    
     <Route path={ROUTES.USERLOGIN} element = {<UserLogin/>}> </Route>
     
 </Routes>

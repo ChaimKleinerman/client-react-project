@@ -79,3 +79,8 @@ body{
     display: flex;
     justify-content: center;
 }
+#deleteButton{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+}

@@ -10,12 +10,13 @@ export default function UserRegistration() {
     const { register, handleSubmit } = useForm<User>();
     //header
     const headers = {
-        Authorization: "test-token",
         "Content-Type": "application/json",
     };
     //axios
-    function onSubmit(data: User) {
-        axios.post("http://localhost:3000/api/auth/register", data, { headers });
+  async  function onSubmit(data: User) {
+      const respond = await  axios.post("http://localhost:3000/api/register", data, { headers });
+        console.log(respond);
+        
     }
     return (
         <>

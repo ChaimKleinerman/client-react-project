@@ -6,5 +6,5 @@ export const ROUTES= {
     DETAIL:"/detail/:id",
     UPDATE:"/update/:id",
     NEW:"/new",
-   
+    DELETE:'/delete/:id'
 }
